@@ -1,0 +1,60 @@
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <div class="logo">ConsulTech</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+  </nav>
+</header>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - My Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Sub-header with background -->
+  <section class="sub-header">
+    <h1>Contact Us</h1>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact-container">
+    <!-- Left side: Contact details -->
+    <div class="contact-details">
+      <h2>Get in Touch</h2>
+      <p><strong>Address:</strong> 123 Business Street, Hyderabad</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Email:</strong> info@consultech.com</p>
+    </div>
+
+    <!-- Right side: Contact form -->
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="phone" placeholder="Your Phone">
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="response"></p>
+    </div>
+  </section>
+
+  <script src="contact.js"></script>
+</body>
+</html>
